@@ -1,6 +1,30 @@
 body {
-  background-color: #ff0000;
-  color: #0000FF;
+  background-color: #FFFFFF;
+  color: #443163;
+}
+
+body {
+  font-size: 16px;
+}
+
+h1 {
+  font-size: 2em; /* 32px */
+  line-height: normal;
+}
+
+h3 {
+  font-size: 1.5em; /* 24px */
+  line-height: 1.5em;
+}
+
+figcaption {
+  font-size: 1.1em; /* 18px */
+  line-height: 2em;
+}
+
+p {
+  font-size: 1em; /* 16px */
+  line-height: 1.5em;
 }
 
 nav {
@@ -9,6 +33,16 @@ nav {
   position: fixed;
   width: 100%;
 }
+
+a {
+  text-decoration: none;
+}
+
+a:link { color:#5B4880; }
+a:visited { color:#6A5894; }
+a:hover { color:#443163; }
+a:active { color:#FFFFFF; }
+
 
 .logo {
   margin: 20px;
